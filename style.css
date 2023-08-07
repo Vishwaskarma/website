@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,400&family=Mulish:ital,wght@0,200;0,300;0,600;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+*{
+     margin:0px;
+      padding:0px;
+      box-sizing: border-box;
+      font-family: 'poppins',sans-serif;
+    }
+
+ html,body{
+    height:100%;
+    width:100%;
+
+
+}
+
+
+
+.main{
+    height:100%;
+    width:100%;
+    position:relative;
+
+
+}
+.nav{
+    height:70px;
+    width:100%;
+  
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 4vw;
+    border-bottom:2px solid #dadada;
+
+
+}
+.nav-part{
+    display:flex;
+    gap:3vw;
+    align-items: center;
+    
+
+}
+.nav h2{
+    font-size:2vw;
+    font-weight:300;
+
+}
+.nav h4{
+    font-weight:500;
+    font-family: 'Mulish', sans-serif;
+    font-size:1.3vw;
+
+}
+.nav i{
+   
+    font-weight:700;
+    display:none;
+}
+.home-content{
+    height: calc(100% - 70px);
+    width:100%;;
+
+    display:flex;
+
+    position: relative;
+
+}
+.left{
+    height:100%;
+    width:50%;
+
+    padding:6vw 4vw;
+  
+
+}
+.left h1{
+    font-size:2.2vw;
+    line-height:3.4vw;
+    font-weight:430;
+
+}
+.left h1 span{
+    color:#FF725E;
+    
+}
+.left p{
+    margin:8px 0px;
+}
+
+.right{
+height:100%;
+width:50%;
+
+}
+.right img{
+    height:100%;
+    width:100%;
+}
+.btn{
+    font-size:1.5vw;
+    padding:0.20vw 2vw;
+    background-color:#FF725E ;
+    border:none;
+    border-radius:3px;
+    
+    
+}
+.nav-btn{
+    font-size:1.3vw;
+    padding:0.6vw 1.4vw;
+    background-color: #6B7B83;
+    border:none;
+    border-radius:3px;
+    font-weight:500;
+    color:white;
+    
+
+}
+
+@media(max-width:600px){
+    .nav{
+         padding:0 6vw;
+        height:60px;
+
+    }
+.nav h2{
+        font-size:6vw;
+    }
+    .nav h4{
+        font-size:4vw;
+        display:none;
+
+    }
+    .nav i{
+        display:block;
+        font-size:4.5vw;
+
+
+    }
+    .nav-btn{
+        display:none;
+    }
+    .home-content{
+        height:calc(100% - 60px);
+        display:flex;
+        flex-direction: column;
+    }
+    .left{
+       width:100%;
+       height:55%;
+     
+
+
+    }
+    .left h1{
+        font-size:6vw;
+        line-height:12vw;
+    }
+    left p{
+        font-size:2vw;
+        width:90%;
+
+    }
+    .right{width:100%;
+       
+
+        height:50%;
+     
+
+  
+}
+.btn{
+    padding:1.5vw 10vw;
+    font-size:4vw;
+    border-radius:3px ;
+    color:white;
+    font-weight:600;
+    margin:15px 0px;
+
+
+
+
+}
+}
